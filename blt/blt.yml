@@ -1,6 +1,6 @@
 project:
   machine_name: kanban-api
-  prefix: BLT
+  prefix: KANBAN
   human_name: 'BLTed 8'
   profile:
     name: lightning
