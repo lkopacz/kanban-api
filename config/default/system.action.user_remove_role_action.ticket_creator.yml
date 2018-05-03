@@ -1,0 +1,14 @@
+uuid: 266c1783-69c6-4a90-93ac-ff97d29e4a0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ticket_creator
+  module:
+    - user
+id: user_remove_role_action.ticket_creator
+label: 'Remove the Ticket creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ticket_creator

@@ -1,0 +1,14 @@
+uuid: cc1fbdd0-627d-4446-abcc-5265af9a2931
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ticket_creator
+  module:
+    - user
+id: user_add_role_action.ticket_creator
+label: 'Add the Ticket creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ticket_creator

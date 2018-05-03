@@ -1,0 +1,17 @@
+uuid: 5a9a97f2-0a12-4360-8b16-9f299be68ada
+langcode: en
+status: true
+dependencies: {  }
+id: ticket_reviewer
+label: 'Ticket reviewer'
+weight: 8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any ticket content'
+  - 'edit any ticket content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'

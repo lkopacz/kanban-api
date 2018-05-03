@@ -1,0 +1,14 @@
+uuid: 13cdaccc-bb41-4244-90b0-486c2b281c67
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ticket_reviewer
+  module:
+    - user
+id: user_remove_role_action.ticket_reviewer
+label: 'Remove the Ticket reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ticket_reviewer

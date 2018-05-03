@@ -1,0 +1,28 @@
+uuid: aca447e0-9a22-400b-80af-c22c2b81f0c0
+langcode: en
+status: true
+dependencies: {  }
+id: ticket_creator
+label: 'Ticket creator'
+weight: 7
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node ticket content'
+  - 'administer panelizer node ticket layout'
+  - 'change layouts in place editing'
+  - 'create ticket content'
+  - 'create url aliases'
+  - 'edit own ticket content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view ticket revisions'

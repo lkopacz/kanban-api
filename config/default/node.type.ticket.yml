@@ -1,0 +1,18 @@
+uuid: 89115f8b-d679-4aee-b651-d77fa7a826a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Ticket
+type: ticket
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

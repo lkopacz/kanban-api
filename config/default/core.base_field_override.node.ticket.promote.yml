@@ -1,0 +1,22 @@
+uuid: e54bc25d-a48c-4715-8f04-0679ab51fa73
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ticket
+id: node.ticket.promote
+field_name: promote
+entity_type: node
+bundle: ticket
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

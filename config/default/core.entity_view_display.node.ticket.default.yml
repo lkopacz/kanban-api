@@ -1,0 +1,36 @@
+uuid: e1e80613-1f8f-4858-8fb4-fbb2abee3837
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ticket.body
+    - field.field.node.ticket.field_status
+    - node.type.ticket
+  module:
+    - options
+    - text
+    - user
+id: node.ticket.default
+targetEntityType: node
+bundle: ticket
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_status:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true
